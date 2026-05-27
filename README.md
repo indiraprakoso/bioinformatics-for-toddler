@@ -3,7 +3,7 @@
 
 ---
 
-## 🚀 About The Project
+## 🚀 About The Game
 Bioinformatics is an emerging, powerhouse field in biology—but explaining it to beginners or high school students can be quite a challenge. Traditional learning often gets bogged down in heavy theory. 
 
 **Bioinformatics for Toddler** is a lightweight, single-page web application developed for the **#JuaraVibeCoding** initiative. It leverages gamification and interactive UI to break down complex genomic and evolutionary concepts into bite-sized, playful, yet highly competitive mini-games. Despite the sarcastic "toddler" theme, the puzzles are designed to genuinely challenge a high schooler's (or even an adult's!) logic.
