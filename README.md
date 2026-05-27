@@ -79,4 +79,4 @@ npm run dev
 Once successful, your terminal will output the active local servers:
 Frontend running at: http://localhost:5173/ & Backend listening at: http://localhost:8080/
 
-Open your browser, navigate to http://localhost:5173/, and enjoy the game!
+Step 5: Open your browser, navigate to http://localhost:5173/, and enjoy the game!
