@@ -47,8 +47,8 @@ Since this entire platform is bundled into a single HTML file, running it is inc
 
 1. Clone this repository:
 ```bash
-   git clone [https://github.com/indiraprakoso/bioinformatics-for-toddler-game.git](https://github.com/indiraprakoso/bioinformatics-for-toddler-game.git)
-   cd bioinformatics-for-toddler-game
+   git clone https://github.com/indiraprakoso/bioinformatics-for-toddler.git
+   cd bioinformatics-for-toddler
 ```
 
 Step 2: Create a Local Environment File
