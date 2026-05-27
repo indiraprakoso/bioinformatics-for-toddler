@@ -47,4 +47,37 @@ Since this entire platform is bundled into a single HTML file, running it is inc
 
 1. Clone this repository:
 ```bash
-   git clone [https://github.com/YOUR_USERNAME/bioinformatics-for-toddler.git](https://github.com/YOUR_USERNAME/bioinformatics-for-toddler.git)
+   git clone [https://github.com/indiraprakoso/bioinformatics-for-toddler-game.git](https://github.com/indiraprakoso/bioinformatics-for-toddler-game.git)
+   cd bioinformatics-for-toddler-game
+```
+
+Step 2: Create a Local Environment File
+The backend expects a local environment file named .env.local inside the backend directory to initialize route proxies properly. Run the appropriate command for your OS to generate this empty file:
+
+Windows (Command Prompt):
+```DOS
+type null > backend\.env.local
+```
+
+Linux / macOS / Git Bash:
+```Bash
+touch backend/.env.local
+```
+
+Step 3: Install Dependencies
+Thanks to NPM Workspaces, you don't need to navigate into separate frontend or backend folders. Simply run this command in the root directory (the main folder):
+```Bash
+npm install
+```
+
+Step 4: Launch the Application
+Start both the backend server and the frontend development server simultaneously with a single command:
+```Bash
+npm run dev
+```
+
+Once successful, your terminal will output the active local servers:
+➜ Frontend running at: http://localhost:5173/
+➜ Backend (Simulated) listening at: http://localhost:8080/
+
+Open your browser, navigate to http://localhost:5173/, and enjoy the game!
