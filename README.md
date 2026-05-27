@@ -56,7 +56,7 @@ The backend expects a local environment file named .env.local inside the backend
 
 Windows (Command Prompt):
 ```DOS
-type null > backend\.env.local
+type nul > backend\.env.local
 ```
 
 Linux / macOS / Git Bash:
